@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: virtualr-frontend
-          image: <your-dockerhub-username>/virtualr-frontend:latest
+          image: hashabc/virtualr-frontend:latest
           ports:
             - containerPort: 80
